@@ -1,0 +1,17 @@
+{
+	"clusters":[{
+		"clusterName":"集群1",
+		"region":"北京",
+		"status":"运行中",
+		"version":"openshift-3.9",
+		"createTime":"2018-09-20T10:58:51Z"
+	},
+	{
+		"clusterName":"集群2",
+		"region":"贵州",
+		"status":"创建中",
+		"version":"openshift-3.9",
+		"createTime":"2018-09-21T10:58:51Z"
+	}
+	]
+}
