@@ -24,6 +24,8 @@ func LoopHaveDinner(p *dinner.Person) {
 		t := time.NewTimer(next.Sub(now))
 		p.HaveDinner("刘俊榜", "1")
 		p.HaveDinner("白栋天", "1")
+		p.HaveDinner("薛冬梅", "1")
+		p.HaveDinner("张峻峰", "1")
 		<-t.C
 		LoopHaveDinner(p)
 	}

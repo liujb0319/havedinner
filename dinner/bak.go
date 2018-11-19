@@ -1,5 +1,11 @@
 package dinner
 
+import "fmt"
+
+func init() {
+	fmt.Println("init dinner package")
+}
+
 /********
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
